@@ -1,0 +1,1 @@
+# vamos fazer uma passagem sobre nosso operadores artimetricos
