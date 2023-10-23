@@ -5,6 +5,6 @@
 
 F = int (input("Informe a temperatura em graus Fahrenheit: "))
 
-C = int (5 * ((F-32) / 9))
+C = int (5 *((F-32) / 9))
 
 print("A temperatura em graus Celsius é:", C, "°C")
