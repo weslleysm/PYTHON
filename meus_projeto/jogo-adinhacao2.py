@@ -1,6 +1,6 @@
-print("*********************************")
+print(40*"*")
 print("Bem vindo ao jogo de Adivinhação!")
-print("*********************************")
+print(40*"*")
 numero_secreto = 42
 total_de_tentativas = 3
 
