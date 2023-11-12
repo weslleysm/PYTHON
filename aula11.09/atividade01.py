@@ -3,7 +3,7 @@
 #"Somos uma escola de tecnologia de informação que cria pontes entre pessoas, conhecimento e empresas. Ambiente que propor
 #ciona conexão, troca de conhecimentos e aprendizado compartilhado entre participantes, instrutores e empresas parceiras."
 
-# 1 Faça o fatiamento de 10 palavras do testo abaixo
+#  Faça o fatiamento de 10 palavras do testo abaixo
 #  [i:f:p]
 
 texto = "Somos uma escola de tecnologia de informação que cria pontes entre pessoas, conhecimento e empresas. Ambiente que proporciona conexão, troca de conhecimentos e aprendizado compartilhado entre participantes, instrutores e empresas parceiras."
