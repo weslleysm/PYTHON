@@ -1,11 +1,12 @@
-# uma lista é representada pelos []
-# len - metodo que retorna a quantidade de itens de uma lista 
+# uma lista é representada pelos [] cochetes 
 # OBS: todo metodo por obrigação ele retorna algum valor
+# len - metodo que retorna a quantidade de itens de uma lista 
 # append - metodo que insere itens no final da lista
 # del - remove item especifico da lista 
 # remove - remove um objeto especifico da lista
 # pop - remove o ultimo objeto da lista
 # insert - ele adiciona um objeto no inicio da lista 
+# estend - junta duas listas 
 
 # metodo LIST normal é representada pelo []
 lista = ['front']
