@@ -12,3 +12,5 @@ lista.append('joão')
 del lista[2]
 lista.remove('paulo')
 print(lista)
+lista.append('manoel')
+print(lista)
