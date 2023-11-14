@@ -6,6 +6,7 @@ lista = ['joão', 'paulo']
 lista[1] = 'jose'
 print(lista)
 
+#strings são totalmente mutaveis 
 nome = 'paulo' 
 # nome = 'joão'
 # nome[2] = 'a'
@@ -14,6 +15,7 @@ nome = 'joão'
 print(nome)
 print(novo_nome)
 
+#listas são mutaveis e imutaveis 
 lista_a = ['joão', 'paulo']
 lista_b = lista_a
 lista_a[1] = 'jose'
