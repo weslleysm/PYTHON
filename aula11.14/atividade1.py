@@ -6,5 +6,3 @@ del lista1 [2]
 print(lista1)
 
 
-
-
