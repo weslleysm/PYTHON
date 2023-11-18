@@ -1,8 +1,8 @@
 import random  # a função ramdom gera numeros aleatorios
 
-print("*********************************")
+print(40 * '*')
 print("Bem vindo ao jogo de Adivinhação!")
-print("*********************************")
+print(40 * '*')
 numero_secreto = random.randrange(1, 101) # a função random.randrage(inicio, fim) serve para gerar numero aleatorio
 total_de_tentativas = 0
 rodada = 1
