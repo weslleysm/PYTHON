@@ -6,10 +6,11 @@
 # remove - remove um objeto especifico da lista
 # pop - remove o ultimo objeto da lista
 # insert - ele adiciona um objeto no inicio da lista 
-# estend - junta duas listas 
+# estend - estende uma lista com outra lista
 
 # metodo LIST normal é representada pelo []
-lista = ['front']
+lista = []
+lista = lista['front']
 print(lista, type(lista))
 print(len(lista))
 lista = ['back']
@@ -27,7 +28,7 @@ print(len(lista))
 #           0        1      2   3     4
 # Reverse  -5       -4     -3   -2    -1 
 lista = [ 'back', 'tarde', 21, True, 8.8 ]
-print(f' a quantidade de alunos na turma é {lista [2]}')
+print(f' a quantidade de alunos na turma é {lista [2]} {lista[3]}')
 lista[2] = 22
 print(lista)
 lista[1] = False

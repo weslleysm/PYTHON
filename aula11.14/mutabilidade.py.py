@@ -17,7 +17,9 @@ print(novo_nome)
 
 #listas são mutaveis e imutaveis 
 lista_a = ['joão', 'paulo']
-lista_b = lista_a
+lista_b = lista_a.copy()
+lista_c = lista_b
 lista_a[1] = 'jose'
 print(lista_a)
 print(lista_b)
+print(lista_c)
