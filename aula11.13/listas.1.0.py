@@ -8,16 +8,16 @@
 # insert - ele adiciona um objeto no inicio da lista 
 # estend - estende uma lista com outra lista
 
-# metodo LIST normal é representada pelo []
+print ('metodo LIST normal é representada pelo []')
 lista = []
-lista = lista['front']
+lista = ['front']
 print(lista, type(lista))
 print(len(lista))
 lista = ['back']
 print(lista, type(lista))
 print(len(lista))
 
-# 'append' é um metodo LIST, ele pega a penultima "variaveis.append" e coloca valores no fim da lista
+print( 'append é um metodo LIST, ele pega a penultima "variaveis.append" e coloca valores no fim da lista')
 lista.append('data')
 print(lista, type(lista))
 print(len(lista))
