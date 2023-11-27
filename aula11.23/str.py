@@ -6,6 +6,6 @@
 # es
 # 
 
-frase = 'A banana e amarela e o abacate e verde'
+frase = 'A banana é amarela e o abacate é verde'
 letra = 'a'
 print(f'A letra "{letra}" aparece {frase.count(letra)} vezes na frase "{frase}"')
