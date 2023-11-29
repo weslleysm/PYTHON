@@ -1,6 +1,6 @@
 # outra forma de INTERPOLAR (imprimir)
 nome = "Weslley"
-salrio = 4500.99
+salrio = 4499.90
 
 print(nome, "ganha um salario de R$", salrio)
 print(f'O salrio de {nome} é R$ {salrio}') 

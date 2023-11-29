@@ -16,6 +16,7 @@ print(len(lista))
 lista = ['back']
 print(lista, type(lista))
 print(len(lista))
+print(40*'*' )
 
 print( 'append é um metodo LIST, ele pega a penultima "variaveis.append" e coloca valores no fim da lista')
 lista.append('data')
@@ -24,6 +25,7 @@ print(len(lista))
 lista.append('front')
 print(lista, type(lista))
 print(len(lista))
+print(40*'*')
 
 #           0        1      2   3     4
 # Reverse  -5       -4     -3   -2    -1 
@@ -35,6 +37,7 @@ lista[1] = False
 print(lista)
 lista [1] = ['neyva', 'alice', 'lara', 'paula', 'geisa'] # matriz 
 print(lista[1][2])
+print(40*'*')
 
 print(lista)
 del lista[-2] # del remove pelo indice
@@ -47,7 +50,7 @@ del lista[-2]
 print(lista)
 lista.remove('back') # o .remove deleta pelo o valor
 print(lista)
-
+print(40*'*')
 
 lista.append(26)
 lista.append(27)
@@ -56,6 +59,7 @@ print(lista)
 valor_do_pop = lista.pop()
 print(lista)
 print(f'foi removido da lista o cliente de id {valor_do_pop}') # o pop alem da 
+print(40*'*')
 
 lista.insert(0, 'amontada valley') # insert adiciona objeto no inicio, meio ou fim
 print(lista)

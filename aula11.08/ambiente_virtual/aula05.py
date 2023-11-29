@@ -3,7 +3,7 @@
 # Ordem de tratamento 
 # 0123456.......
 # -654321.......
-# [i:f:p] = i - INICIO, i - FIM, p - PARSE
+# [i:f:p] = i - INICIO, f - FIM, p - PARSE
 
 nome = "Rodrigo Jose dos Santos Amaral Neto Junior"
 print(nome[17:23]) # inicio
