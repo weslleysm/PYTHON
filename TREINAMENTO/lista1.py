@@ -3,5 +3,5 @@
 lista = []
 lista = [1,2,3,4,5]
 print(lista)
-lista.remove (3)
+del lista[2]
 print(lista)

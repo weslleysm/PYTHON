@@ -7,10 +7,11 @@
 #   f. adicione um novo nome na lista
 
 lista = []
-lista = ['joao', 'weslley', 'jose', 'paulo', 'marcos']
+lista = ['joao', 'weslley', 'jose', 'anderson', 'alice']
 print(lista)
-lista.append('açice')
+lista.append('paulo')
 del lista[2]
-lista.remove('weslley')
+lista.remove('joao')
 print(lista)
-lista.append('jorge')
+lista.append('mateus')
+print(lista)
