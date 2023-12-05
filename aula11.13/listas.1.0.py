@@ -31,7 +31,7 @@ print(40*'*')
 # Reverse  -5       -4     -3   -2    -1 
 lista = [ 'back', 'tarde', 21, True, 8.8 ]
 print(f' a quantidade de alunos na turma é {lista [2]} {lista[3]}')
-lista[2] = 22
+lista[2] = 22 # muda o valor da lista
 print(lista)
 lista[1] = False
 print(lista)

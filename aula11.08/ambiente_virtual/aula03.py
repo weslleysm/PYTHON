@@ -13,4 +13,4 @@ buscar = input('Informe o valor a ser encontrado: ')
 if (buscar in seu_nome):
     print(f'{buscar} está contido em {seu_nome}')
 else:
-    print(f'{buscar} NÃO está contido em {seu_nome}')
+    print(f'{buscar} NÃO está contido em {seu_nome}') 
