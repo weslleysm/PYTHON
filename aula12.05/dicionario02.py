@@ -29,6 +29,11 @@ print(50 * '*')
 for chave in pessoa:
     print(chave)    # exemplo de impressão de chaves com estrutura de repetição for
 
+print(50*'*')
+pessoa ['nome'] = 'weslley' # exemplo de alteração/troca de valores, não a necessidade de usar o append
+pessoa['sobrenome'] = 'severiano'
+print(pessoa)
+
 print(50 * '*')
 v = pessoa.values()
 for chave in v:     # exemplo 1 de impressão de valores com estrutura de repetição for
@@ -40,7 +45,7 @@ for chave in pessoa.values():
 
 print(50 * '*')
 for chave, valor in pessoa.items():
-    print(chave, valor) # exemplo de impressão de CHAVES e VALORES com repetição for
+    print(chave, valor) # items - exemplo de impressão de CHAVES e VALORES com repetição for
 
 print(50 * '*')
 print(pessoa['nome'], pessoa['sobrenome']) #impressão de mais de um valores especificos 
@@ -49,7 +54,7 @@ print(50 * '*')
 d1 = {'valor1':'100',
       'valor2':'200',  # um novo dicionario
       'valor3':'300', }
-d2 = d1.copy() # copy() para fazer uma copia de um dicionario
+d2 = d1.copy() # copy() para fazer uma copia de um dicionario com um novo endereço de memoria
 print(d1)
 d2['valor2'] = 2000 # mudando o valor da chave do d2, que é a copia do d1
 print(d1)           # d1 nao vai sofrer alteração, pois o d2 tem indentidade propia apos ser uma copia
