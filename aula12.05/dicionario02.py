@@ -11,6 +11,7 @@
 # update - Atualiza um dicionário com os elementos de outro Os itens em dic são adicionados um a um ao dicionário original. É possível usar a mesma sintaxe da função dict para especificar dic.
 # popitem - Retorna e remove um par chave/valor aleatório do dicionário. Pode ser usado para repetir sobre todos os elementos do dicionário.
 # pop - Obtém o valor correspondente a chave e remove o par chave/valor do dicionário.
+# sorted - ordena um dicionario pelas suas chaves
 # possuem CHAVE(KEYS) e VALOR(VALUES) 
 # parametro: {} ou dict()
 # 
