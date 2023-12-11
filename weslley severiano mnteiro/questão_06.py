@@ -11,10 +11,33 @@ Questão 06
 
 """
 
-lista = [10,11,20,22,30,33,40,11,50,55,60,66,70,22,80,88,90,99]# 01
-pares = [lista[0], lista[2], lista[3], lista[4], lista[6], lista[8], lista[10], lista[11], lista[12], lista[13], lista[14], lista[15], lista[16]]
-print(pares) 
+lista = [10,11,20,22,30,33,40,11,50,55,60,66,70,22,80,88,90,99]
 
+lista_par = []
+for i in lista:
+    if i % 2 == 0:
+        lista_par.append(i)
+print(lista_par)
 
-impares = [lista[1], lista[5], lista[7], lista[9], lista[17]]
-print(impares)                                                   #02
+lista_impar = []
+for i in lista:
+    if i % 2 != 0:
+        lista_impar.append(i)
+print(lista_impar)
+
+lista_mult = []
+for i in lista:
+    if i // 2 * 2 == i:
+        lista_mult.append(i)
+print(lista_mult)
+
+soma = 0
+for i in lista:
+    soma = soma + i
+print(soma)
+
+lista_repete = []
+for i in lista:
+    if lista.count(i) > 1 and i not in lista_repete:
+        lista_repete.append(i)
+print(lista_repete)
