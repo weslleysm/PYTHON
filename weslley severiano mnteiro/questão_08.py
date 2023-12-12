@@ -13,9 +13,10 @@ Questão 08
 
 frutas = ["abacaxi", "uva", "maçã", "abacate", "tangerina"]
 precos = [3.50, 4.99, 6.49, 9.10, 4.99]
-
-for i, j in zip(frutas, precos):
-    print(i,j)
+dic_frutas = {}
+for i, j in enumerate(frutas):
+    dic_frutas.update({frutas:precos[i]})
+print(dic_frutas)
 
 print(frutas)
 print(precos)

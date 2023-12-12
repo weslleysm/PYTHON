@@ -16,6 +16,10 @@ for i in texto:           # 01
 print(f'a letra "a" aparece {quantidade} vezes no texto')
 
 
+letra = 'a'
+print(texto.count(letra))
+
+
 
 achei = texto.find('z')
 if achei >= 0:
