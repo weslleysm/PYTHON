@@ -6,7 +6,7 @@ peso   = float(input("Informe seu Peso:"))
 
 IMC = peso / (altura * altura) 
 
-print(("Indice de Massa Corporal:"),IMC)
+print(f'Indice de Massa Corporal: {IMC:.1f}')
     
 if IMC < 17:
     print("Você esta muito abaixo do peso")
