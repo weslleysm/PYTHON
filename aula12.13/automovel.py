@@ -22,22 +22,29 @@ caminhao = Automovel('ZYK-5454', 'cinza')
 
 #chamadas GET
 linha()
+print('         CARRO')
 print(f'A cor do carro é {carro.get_cor()}')
 print(f'A placa do carro é {carro.get_placa()}')
 carro.dirigir(100)
 linha()
+print('         MOTO')
 print(f'A cor da moto é {moto.get_cor()}')
 print(f'A placa da moto é {moto.get_placa()}')
 moto.dirigir(70)
 linha()
+print('         CAMINHÃO')
 print(f'A cor do caminhão é {caminhao.get_cor()}')
 print(f'A placa do caminhão é {caminhao.get_placa()}')
 moto.dirigir(200)
 linha()
 
 #chamadas SET
-carro.set_cor('branco')
-moto = Automovel('WEB-1510', 'dourado')
-caminhao = Automovel('ZYK-5454', 'azul')
-print(f'O carro foi pintado para {carro.set_cor()}')
+print('         ALTERAÇÃO COM SET')
+carro.set_cor('branco')# o comando SET faz a alteração no GET
+moto.set_cor('dourada')
+caminhao.set_cor('azul')
+print(f'A cor do carro foi alterada para {carro.get_cor()}')
+print(f'A cor da moto foi alterada para {moto.get_cor()}')
+print(f'A cor do caminhão foi alterada para {caminhao.get_cor()}')
+linha()
 
