@@ -1,5 +1,6 @@
 from OO import Pessoa
 
+#INSTANCIAS
 
 #atribui o valor
 p1 = Pessoa('weslley', 23)

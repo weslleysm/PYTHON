@@ -33,8 +33,8 @@ class ControleRemoto:
             self.set_temperatura(0)
             self.desligar()
     
+#INSTANCIAS
 controle = ControleRemoto('branco', 'elgin', 2)
-
 
 controle.pressionar_botao('ligar')
 

@@ -2,6 +2,8 @@ from OO import Pessoa
 def linha():
     print(60*'-')
 
+
+#instancias
 p1 = Pessoa('weslley', 23)
 p2 = Pessoa('Livia', 24)
 linha()

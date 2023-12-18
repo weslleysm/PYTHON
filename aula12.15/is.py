@@ -32,6 +32,7 @@ class Pet:
         print(f'Estou pesando {self.peso}kg')
         print(f'Minha fome esta em {self.fome}')
 
+#instancias
 caozinho = Pet('Bodo', 15)
 
 caozinho.imprimir()

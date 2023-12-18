@@ -11,6 +11,7 @@ class FoneDeOuvido:
 
 # sempre que usar o property o atributo tem que estar privado "__" por que ele nao aceita publico
 
+#INSTANCIAS
 fone = FoneDeOuvido()
 
 fone.volume = 200 # SET

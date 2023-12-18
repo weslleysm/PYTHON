@@ -16,6 +16,7 @@ class Automovel:
     def set_cor(self, nova_cor):# set_ chama e pode ser alterado
         self.cor = nova_cor
     
+#INSTANCIAS
 linha()
 carro = Automovel('DHA-3568', 'preto')
 print(carro.get_cor())
