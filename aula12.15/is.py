@@ -12,7 +12,7 @@ class Pet:
         return self.peso
     def get_fome(self):
         return self.fome
-    
+    #                               METODOS
     #os SET
     def set_nome(self, novo_nome):
         self.nome = novo_nome
