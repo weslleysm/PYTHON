@@ -14,11 +14,3 @@ bd.inserir_cliente(1, 'weslley')
 bd.inserir_cliente(2, 'joão')
 bd.inserir_cliente(3, 'manel')
 print(bd.dados)
-
-
-# metodos são verbos 
-# se tem atributos nome, curso, idade etc tem que criar gets e sets 
-
-#estancie =>
-
-#abstração => 
