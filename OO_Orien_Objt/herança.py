@@ -7,7 +7,7 @@ class Pessoa:
     def __str__(self):
         return f'Nome: {self.nome}, Idade:{self.idade} e CPF: {self.__cpf}'
     
-    def get_cpf(self):
+    def get_cpf(self): 
         return self.__cpf
     def set_cpf(self, meu_cpf):
         self.__cpf = meu_cpf

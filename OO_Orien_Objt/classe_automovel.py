@@ -18,7 +18,7 @@ moto = Automovel('WEB-1510', 'vermelho')
 caminhao = Automovel('ZYK-5454', 'cinza')
 
 #chamadas GET
-print()
+print() 
 print('         CARRO')
 print(f'A cor do carro é {carro.get_cor()}')
 print(f'A placa do carro é {carro.get_placa()}')
