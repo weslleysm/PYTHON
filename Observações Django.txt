@@ -1,0 +1,15 @@
+			Observações Django
+A camada movel do Django e responsavel pela a ORN da flame work Django
+urls.py é um arquivo de rotas do Django -> sempre que for criar uma rota precisa usaar esse arquivo
+
+sempre quando criar um projeto no django tem que colocar um . no final
+
+init.py => faz com que o python veja os arquivos da pasta como modulos
+asgi.py e wsgi.py => são arquivos de configuração do servidor web de hospedagem
+settings.py => arquivo geral das configurações do ambiente django. obs: é o arquivo mais importante do projeto
+urls.py => arquivo de rotas do projeto
+manage.py => arquivo com as funções de gerenciamento do django
+apps.py arquivo de configuração dos apps
+models.py é o arquivo que faz o orm para o banco de dados
+views.py arquivo de funçoes
+

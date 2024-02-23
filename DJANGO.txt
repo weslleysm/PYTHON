@@ -1,0 +1,62 @@
+		DJANGO
+
+Obs: para usar o django voce deve criar o ambiente virtual
+
+
+
+PROJETO COM O DJANGO
+1 CRIAR AMBIENTE VIRTUAL: python -m virtualenv .
+2 ATIVAR AMBIENTE VIRTUAL: Scripts/activate
+3 INSTALAR O DJANGO NO AMBIENTE: pip install django
+4 CRIAR O CORE DO PROJETO: django-admin startproject core .
+5 NO ARQUIVO settings.py do core altere: LANGUAGE_CODE = 'pt-br' e a opção TIME_ZONE = 'America/Fortaleza'
+6 Validar se o serviço esta OK com o comando : python .\manage.py runserver 8000
+7 No seu navegador acesse localhost:8000
+8 Apos validar o serviço saia e execute o comando de migração do django: python manage.py migrate
+9 Para acessar o ambiente de admnistração do django use: localhost:8000/admin
+10 Para criar a senha use : python .\manage.py createsuperuser
+11 Criar o app: python .\manage.py startapp nome_do_App
+12 Adicionar o App no arquivo SETTINGS.PY: INSTALLED_APPS
+
+13 Adicionar a rota do meu arquivo urls.py do core: 
+				, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',include('home.urls')),
+]
+14 Criar o arquivo urls.py na pasta home
+
+15 Adicionar a rota no urls.py do home: 
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+]
+
+15 Adicionar o arquivo index.html no views.py do home:
+from django.http import HttpResponse
+
+def home (request):
+    return render (request, 'home/index.html')
+
+16 Dentro da pasta home criar as pastas: templates/home/ e index.html
+
+17 Colocar Imagem => Dentro da pasta home criar as pastas static/home/images e colocar as imagem dentro
+
+18 Dentro do arquivo index.py, adiconar a estrutura do site usando: ! 
+
+19 Sempre que criar um model voce deve fazer: python .\manage.py makemigrations
+					   python .\manage.py migrate
+
+20 Depois voce deve registrar o models no arquivo admin.py:
+from .models import Produto
+
+class listProduto(admin.ModelAdmin):
+    list_display = ('nome_produto', 'descricao', 'categoria', 'preco')
+
+admin.site.register(Produto, listProduto)
+
+obs: não se esqueça de deletar o .gitignore
+obs: não se esqueça de desativar os ambientes virtuais anteriores
